@@ -15,10 +15,8 @@ public class SourceParser {
 		this.loops = new ArrayList<LoopPoint>();
 	}
 	public int run() {
-		int n = 0;
 		int currentSourceIndex;
 		for (int sIndex = 0;sIndex <sourcesplit.length;sIndex++) {
-			n+=1;
 			String s=sourcesplit[sIndex];
 			//System.out.println(sIndex+">"+s+ " - " + Main.line.getAsString());
 			currentSourceIndex=sIndex;
